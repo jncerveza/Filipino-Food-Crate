@@ -41,3 +41,16 @@
 .footer li a:hover{
     color: aqua;
 }
+
+//html
+
+<div class="footer2">
+<ul class="b">
+  <li class="b"><a href="#">Dishes</a></li>
+  <li class="b"><a href="#">Desserts</a></li>
+  <li class="b"><a href="#">Snacks</a></li>
+  <li class="b"><a href="#">About</a></li>
+</ul>
+</div>
+<p>Owned by UMAK and multiple individuals, please do not steal or share this website</p>
+</div>
