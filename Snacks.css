@@ -204,10 +204,10 @@
 }
 
 .preview img {
-	height:300px;
+	height:200px;
 	width:300px;
 	float: left;
-	margin: 60px;
+	margin: 30px;
 }
 
 .preview .name {
@@ -217,7 +217,7 @@
 }
 
 .preview {
-	height: 400px;
+	height: 300px;
 }
 
 .preview p {
