@@ -207,7 +207,7 @@
 	height:300px;
 	width:300px;
 	float: left;
-	margin: 30px;
+	margin: 60px;
 }
 
 .preview .name {
@@ -217,7 +217,7 @@
 }
 
 .preview {
-	height: 500px;
+	height: 300px;
 }
 
 .preview p {
