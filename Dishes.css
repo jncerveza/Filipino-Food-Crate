@@ -330,3 +330,22 @@ display: flex;
 .footer li a:hover{
     color: #96453C;
 }
+
+@keyframes titleeffect {
+	25% {letter-spacing:4px;}
+	50% {letter-spacing:8px;}
+	75% {letter-spacing:12px;}
+
+}
+
+.title p {
+	font-size:80px;
+	text-align:center;
+	font-family:"Arial Bold";
+	padding:30px;
+	color:#C7A746;
+	animation-name: titleeffect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+	animation-delay:-3s;
+}
