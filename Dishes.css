@@ -14,24 +14,23 @@
 
 .navi{
     text-align: center;
-    background-color: #E2A850;
+    background-color: #B87E5F;
     width: 100%;
     height: 70px;
     font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navi a{
-    padding-left: 100px;
-	float:left;
+    padding-left: 120px;
 	text-decoration:none;
 	font-size:25px;
 	color:white;
+	text-align:center;
 }
 
-.navi .tab {
-	padding-top:20px;
-	
-}
 
 .navi a:after {
     display:block;
@@ -56,64 +55,77 @@
     margin: 0;
   }
 
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:400px;
+  position:relative;
+}
+
 .banner img {
+	height:400px;
 	width:100%;
-	height:300px;
-	opacity:50%;
+	opacity:55%;
 }
 
 .banner p {
-	position: absolute;
-	top:30%;
 	color: black;
 	width: 100%;
-	font-size: 75px;
+	font-size: 100px;
 	text-align: center;
 	text-decoration:bold;
+	position:absolute;
+	
 }
 
+.banner {
+	display:block;
+}
+
+.np {
+	position:relative;
+}
 .np .previous {
 	position: absolute;
-	top:33%;
-	left:15%;
+	left:200px;
+	bottom:160px;
 }
 
 .np .next {
 	position: absolute;
-	top:33%;
-	right:15%;
+	right:200px;
+	bottom:160px;
 }
 
 
 .np a {
   text-decoration: none;
-  display: inline-block;
-  font-size:30px;
+  font-size:40px;
   padding:10px;
 }
 
 .np a:hover {
-  background-color: #ddd;
-  color: black;
+  opacity:75%;
 }
 
 .previous {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #CC7C2D;
+  color: white;
  
 }
 
 .next {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #CC7C2D;
+  color: white;
 }
 
 .round {
-  border-radius: 50%;
+  border-radius: 45%;
 }
 
 .topnav {
-  background-color: #467599;
+  background-color: #96453C;
   display:block;
 }
 
@@ -137,7 +149,9 @@
   height:30px;
   border: none;
   cursor: pointer;
-  background-color:#9E2A2B;
+  background-color:#CC7C2D;
+  font-size:18px;
+  width:80px;
   color:white;
 }
 
@@ -163,13 +177,13 @@
   
 }
 .dropbtn {
-  background-color: #9E2A2B;
+  background-color: #CC7C2D;
   color: white;
   padding: 20px;
-  font-size: 20px;
+  font-size: 23px;
   border: none;
   cursor: pointer;
-  width:100px;
+  width:130px;
 }
 
 .dropdown {
@@ -181,7 +195,7 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -191,6 +205,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-size:23px;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
@@ -207,13 +222,15 @@
 	height:200px;
 	width:300px;
 	float: left;
-	margin: 30px;
+	margin: 40px;
 }
 
 .preview .name {
 	font-size:50px;
 	font-family:"Arial Bold";
 	padding-top:50px;
+	padding-bottom:10px;
+	color:#C7A746;
 }
 
 .preview {
@@ -222,7 +239,7 @@
 
 .preview p {
 	font-family:"Arial";
-	margin-right: 30px;
+	margin-right: 40px;
 }
 
 .preview .description {
@@ -238,5 +255,78 @@
 
 .preview:hover {
 	opacity:75%;
+}
+
+.nppages {
+	position:relative;
+	height:150px;
+}
+
+.npbutton {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.nppages a{
+  background-color: #CC7C2D;
+  color: white;
+  padding:10px;
+  display:block;
+  text-decoration:none;
+  font-size:25px;
+  text-align:center;
+  margin-right:30px;
+}
+
+.nppages a:hover {
+	opacity:75%
+} 
+
+
+.footer{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    background-color: #DCEBB0;
+	margin-top:60px;
+}
+.footer li{
 	
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    display: block;
+}
+
+.footer li a{
+    transition: 1s;
+    text-decoration: none;
+	color:#B87E5F;
+}
+
+.footer2 li{
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.footer img{
+	cursor:pointer;
+    padding-bottom: 10px;
+    border-radius: 10%;
+    padding-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+.footer p{
+    font-size: 18px;
+    padding-left: 36px;
+    padding-top: 10px;
+}
+
+.footer li a:hover{
+    color: #96453C;
 }
