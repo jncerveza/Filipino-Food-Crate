@@ -125,7 +125,7 @@ position: absolute;
 
 .gallery {
 	width:100%;
-	height:600px;
+	height:620px;
 	border-top: 2px solid #96453C;
 	border-bottom: 4px dotted #96453C;
 	padding:10px;
@@ -197,8 +197,8 @@ hr {
 }
 
 .recipe img {
-	width:450px;
-	height:350px;
+	width:350px;
+	height:550px;
 	float:right;
 	padding-left: none;
 	padding-right:100px;
