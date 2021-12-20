@@ -102,7 +102,6 @@
   transform: translate(-50%, -50%);
 	font-size:50px;
 	color:#C7A746;
-	
 }
 
 .np h2{
@@ -110,8 +109,8 @@ position: absolute;
   top: 105px;
   left: 50%;
   transform: translate(-50%, -50%);
-font-size:20px;
-color:#C7A746;
+	font-size:50px;
+	color:#C7A746;
 }
 
 
@@ -161,14 +160,18 @@ hr {
 	margin-right:auto;
 }
 
-
 .history {
 	height:250px;
 	margin:30px;
 }
 
-.recipe,.procedure{
+.recipe{
 	height: 300px;
+	margin:30px;
+}
+
+.procedure {
+	height: 250px;
 	margin:30px;
 }
 
@@ -190,7 +193,7 @@ hr {
 	display:inline-block;
 	font-size:23px;
 	float:left;
-	padding-top:20px;
+	padding-top:40px;
 }
 
 .recipe img {
@@ -209,6 +212,12 @@ hr {
 	text-align:justify;
 	padding-top:20px;
 
+}
+
+.src{
+	
+	padding-left: 550px;
+	
 }
 
 .footer{
