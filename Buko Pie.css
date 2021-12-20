@@ -105,7 +105,7 @@
 	
 }
 
-.h h2{
+.np h2{
 position: absolute;
   top: 105px;
   left: 50%;
@@ -114,7 +114,16 @@ font-size:20px;
 color:#C7A746;
 }
 
-.hh h3{
+.np h3{
+position: absolute;
+  top: 105px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-size:20px;
+color:#C7A746;
+}
+
+.np h4{
 position: absolute;
   top: 105px;
   left: 50%;
@@ -197,6 +206,20 @@ hr {
 }
 
 .recipe ul {
+	display:inline-block;
+	font-size:23px;
+	float:left;
+	padding-top:20px;
+}
+
+.h ul {
+	display:inline-block;
+	font-size:23px;
+	float:left;
+	padding-top:20px;
+}
+
+.hh ul {
 	display:inline-block;
 	font-size:23px;
 	float:left;
