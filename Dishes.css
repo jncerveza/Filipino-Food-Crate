@@ -55,6 +55,25 @@
     margin: 0;
   }
 
+
+::-webkit-scrollbar{
+    
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #cfa188;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #96453C;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #CC7C2D; 
+}
+
 .category {
   display: flex;
   justify-content: center;
@@ -263,7 +282,8 @@
 }
 
 .npbutton {
-display: flex;
+  width:100%;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
@@ -272,11 +292,12 @@ display: flex;
   background-color: #CC7C2D;
   color: white;
   padding:10px;
-  display:block;
+  display:inline-block;
   text-decoration:none;
   font-size:25px;
   text-align:center;
-  margin-right:30px;
+  width:190px;
+  margin-left:10px;
 }
 
 .nppages a:hover {
