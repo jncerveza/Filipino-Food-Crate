@@ -47,7 +47,7 @@
 }
 
 .navi a{
-    padding-left: 120px;
+     padding: 20px 100px;
 	text-decoration:none;
 	font-size:25px;
 	color:white;
@@ -73,7 +73,6 @@
     border-spacing: 10px;
     transform: scaleX(1); 
 }
-
 * {
     margin: 0;
   }
