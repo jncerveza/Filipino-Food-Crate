@@ -108,6 +108,7 @@
 
 .np a:hover {
   opacity:75%;
+cursor: pointer;
 }
 
 .np .previous {
