@@ -93,6 +93,7 @@
   display: inline-block;
   font-size:30px;
   padding:10px;
+  color:white;
 }
 
 .np h1 {
@@ -106,8 +107,7 @@
 }
 
 .np a:hover {
-  background-color: #ddd;
-  color: black;
+  opacity:75%;
 }
 
 .np .previous {
