@@ -234,6 +234,7 @@ li.a a:hover:after{
 	width:300px;
 	float: left;
 	margin: 40px;
+	object-fit: cover;
 }
 
 .preview .name {
