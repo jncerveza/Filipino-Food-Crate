@@ -107,53 +107,27 @@ li.a a:hover:after{
 }
 
 .arrow a:hover{
+    cursor: pointer;
     color: #DCEBB0;
 }
 
-.line1{
-    height: 8px;
+.gallery{
+    border-top: 2px solid #96453C;
+	border-bottom: 4px dotted #96453C;
     width: 100%;
-    background-color: #B87E5F;
+    height: 400px;
 }
 
 .gallery img{
-    border: 10px solid #B87E5F;
-    margin-left: 470px;
-    height: 400px;
-    width: 300px;
+    object-fit: cover;
+    width:100%;
+	height:100%;
 }
 
 .source {
   font-size: 10px;
   position: relative;
   font-family: arial;
-}
-
-.line2{
-    margin-left: 390px;
-    width: 54%;
-    height: 3px;
-    background-color: #B87E5F;
-}
-
-.gallery2{
-    margin-left: 340px;
-}
-
-.c img{
-    padding: 0px 10px;
-    width: 270px;
-    height: 200px;
-}
-
-.c {
-    
-    display: inline-block;
-}
-
-.line3{
-    border-bottom:dashed 6px #B87E5F;
-    width: 100%;
 }
 
 /*body*/
