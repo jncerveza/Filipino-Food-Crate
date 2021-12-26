@@ -113,6 +113,7 @@ li.a a:hover:after{
 }
 
 .gallery{
+	margin-top:10px;
     border-top: 2px solid #96453C;
 	border-bottom: 4px dotted #96453C;
     width: 100%;
