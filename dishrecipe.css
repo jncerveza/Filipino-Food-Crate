@@ -137,10 +137,14 @@
     width: 100%;
 	}
 }
+.history {
+	min-height: 200px;
+	overflow:hidden;
+	margin:50px;
+}
 
-
-.recipe,.procedure,.history{
-	min-height: 100px;
+.recipe,.procedure{
+	min-height: 300px;
 	margin:50px;
 	overflow:hidden;
 	position:relative;
@@ -253,3 +257,24 @@
 .footer li a:hover{
     color: #96453C;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

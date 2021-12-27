@@ -31,7 +31,6 @@
 	text-align:center;
 }
 
-
 .navi a:after {
     display:block;
     content: '';
@@ -54,26 +53,7 @@
 * {
     margin: 0;
   }
-
-
-::-webkit-scrollbar{
-    
-    width: 10px;
-}
-
-::-webkit-scrollbar-track{
-    background: #cfa188;
-}
-
-::-webkit-scrollbar-thumb{
-    border-radius: 10px;
-    background: #96453C;
-}
-
-::-webkit-scrollbar-thumb:hover{
-    background: #CC7C2D; 
-}
-
+  
 .category {
   display: flex;
   justify-content: center;
@@ -101,7 +81,6 @@
 .banner {
 	display:block;
 }
-
 .np {
 	position:relative;
 }
@@ -237,12 +216,30 @@
   opacity:75%;
 }
 
+@keyframes titleeffect {
+	25% {letter-spacing:4px;}
+	50% {letter-spacing:8px;}
+	75% {letter-spacing:12px;}
+
+}
+
+.title p {
+	font-size:80px;
+	text-align:center;
+	font-family:"Arial Bold";
+	padding:30px;
+	color:#C7A746;
+	animation-name: titleeffect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+	animation-delay:-3s;
+}
+
 .preview img {
 	height:200px;
 	width:300px;
 	float: left;
 	margin: 40px;
-	object-fit:cover;
 }
 
 .preview .name {
@@ -275,36 +272,8 @@
 
 .preview:hover {
 	opacity:75%;
+	
 }
-
-.nppages {
-	position:relative;
-	height:150px;
-}
-
-.npbutton {
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-}
-.nppages a{
-  background-color: #CC7C2D;
-  color: white;
-  padding:10px;
-  display:inline-block;
-  text-decoration:none;
-  font-size:25px;
-  text-align:center;
-  width:190px;
-  margin-left:10px;
-}
-
-.nppages a:hover {
-	opacity:75%
-} 
-
 
 .footer{
     text-decoration: none;
@@ -353,21 +322,9 @@
     color: #96453C;
 }
 
-@keyframes titleeffect {
-	25% {letter-spacing:4px;}
-	50% {letter-spacing:8px;}
-	75% {letter-spacing:12px;}
-
-}
-
-.title p {
-	font-size:80px;
-	text-align:center;
-	font-family:"Arial Bold";
-	padding:30px;
-	color:#C7A746;
-	animation-name: titleeffect;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-	animation-delay:-3s;
+.footer li a:after{
+    content: '';
+    border-bottom: solid 3.5px #9E2A2B;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
 }
