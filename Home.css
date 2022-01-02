@@ -78,10 +78,6 @@ li.a a:hover:after{
     transform: scaleX(1); 
 }
 
-li.a a:visited{
-    color: #8F00FF;
-}
-
 .banner{
     position: relative;
 }
@@ -290,7 +286,7 @@ margin-left: 150px;
 }
 
 .column p{
-    font: 20px;
+    font: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
