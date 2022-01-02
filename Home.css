@@ -78,7 +78,7 @@ li.a a:hover:after{
     transform: scaleX(1); 
 }
 
-li.a:visited{
+li.a a:visited{
     color: #8F00FF;
 }
 
