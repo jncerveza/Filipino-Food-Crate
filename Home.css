@@ -214,6 +214,7 @@ li.c a:link {
     color: #96453C;
     font-size: 25px;
     background-color: #DCEBB0;
+    border-radius: 20px;
     width: 300px;
     padding: 10px 30px;
     transition: 700ms;
