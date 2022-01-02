@@ -78,6 +78,10 @@ li.a a:hover:after{
     transform: scaleX(1); 
 }
 
+li.a:visited{
+    color: #8F00FF;
+}
+
 .banner{
     position: relative;
 }
