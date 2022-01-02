@@ -1,5 +1,23 @@
 * {box-sizing: border-box;}
 
+::-webkit-scrollbar{
+    
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #cfa188;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #96453C;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #CC7C2D; 
+}
+
 a {
   text-decoration: none;
 }
