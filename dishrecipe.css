@@ -44,20 +44,20 @@
    
 }
 
-li.tab{
+li.a{
     border-collapse: separate;
     border-spacing: 100px;
     display: inline-block;
     padding: 20px 110px;
 }
 
-li.tab a:link{
+li.a a:link{
     color: #96453C;
     font-size: 30px;
     text-decoration: none;
 }
 
-li.tab a:after {
+li.a a:after {
     display:block;
     content: '';
     border-bottom: solid 3.5px #DCEBB0;
@@ -65,12 +65,12 @@ li.tab a:after {
     transition: transform 250ms ease-in-out;
     
 }
-li.tab a:hover{
+li.a a:hover{
     cursor: pointer;
     color: #DCEBB0;
 }
 
-li.tab a:hover:after{
+li.a a:hover:after{
     border-collapse: separate;
     border-spacing: 10px;
     transform: scaleX(1);
