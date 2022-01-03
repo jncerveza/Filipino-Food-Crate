@@ -18,16 +18,21 @@
     background: #CC7C2D; 
 }
 
+/* Navigation */
 .logo{
-    height: 65px;
+    position: absolute;
+    overflow: hidden;
+    height: 70px;
     width: 70px;
-	padding:none;
+    left: 100px;
+    transition: 250ms;
+    background-size: 70px 70px;
 }
 
 .logo:hover{
-    height: 66px;
-    width: 70px;
-    background-color: #9E2A2B;
+    height: 70px;
+    width: 75px;
+    background-color: #DCEBB0 ;
 }
 
 .navi{
@@ -36,38 +41,40 @@
     width: 100%;
     height: 70px;
     font-family: Arial, Helvetica, sans-serif;
-	display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 
-.navi a{
-    padding-left: 120px;
-	text-decoration:none;
-	font-size:25px;
-	color:white;
-	text-align:center;
+li.tab{
+    border-collapse: separate;
+    border-spacing: 100px;
+    display: inline-block;
+    padding: 20px 110px;
 }
 
-.navi a:after {
+li.tab a:link{
+    color: #96453C;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+li.tab a:after {
     display:block;
     content: '';
-    border-bottom: solid 3.5px #9E2A2B;  
-    transform: scaleX(0);  
+    border-bottom: solid 3.5px #DCEBB0;
+    transform: scaleX(0);
     transition: transform 250ms ease-in-out;
     
 }
-.navi a:hover{
+li.tab a:hover{
     cursor: pointer;
-    color: #9E2A2B;
+    color: #DCEBB0;
 }
 
-.navi a:hover:after{
+li.tab a:hover:after{
     border-collapse: separate;
     border-spacing: 10px;
-    transform: scaleX(1); 
+    transform: scaleX(1);
 }
-
 * {
     margin: 0;
   }
@@ -211,27 +218,28 @@
 	margin-left:-20p;
 }
 
+/* Footer */
 .footer{
     text-decoration: none;
     text-align: center;
     width: 100%;
-    height: 350px;
+    height: 280px;
     background-color: #DCEBB0;
-	margin-top:60px;
 }
+
 .footer li{
-	
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    padding:5px;
+    padding: 5px;
     display: block;
 }
 
 .footer li a{
+    opacity: 60%;
     transition: 1s;
+    color: #9E2A2B;
     text-decoration: none;
-	color:#B87E5F;
 }
 
 .footer2 li{
@@ -240,30 +248,23 @@
 }
 
 .footer img{
-	cursor:pointer;
-    padding-bottom: 10px;
+    cursor: pointer;
+    padding-bottom: 20px;
     border-radius: 10%;
     padding-top: 30px;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
 }
 
 .footer p{
-    font-size: 18px;
-    padding-left: 36px;
+    font-size: 10px;
+    padding-left: 35px;
     padding-top: 10px;
 }
 
 .footer li a:hover{
-    color: #96453C;
+    opacity: 100%;
 }
-
-
-
-
-
-
-
 
 
 
