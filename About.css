@@ -32,6 +32,7 @@
     left: 100px;
     transition: 250ms;
     background-size: 70px 70px;
+	
 }
 
 .logo:hover{
@@ -45,13 +46,16 @@
     background-color: #B87E5F;
     width: 100%;
     height: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-   
+    font-family: New-Times-Roman;
+	maximum-width: 100%;
+   margin-bottom: 60px;
 }
+
+
 
 li.a{
     border-collapse: separate;
-    border-spacing: 100px;
+font-family: New-Times-Roman;
     display: inline-block;
     padding: 20px 110px;
 }
@@ -81,34 +85,23 @@ li.a a:hover:after{
     transform: scaleX(1); 
 }
 
-.title {
-	font-size:100px;
-	text-align:center;
-	font-family:"Arial Bold";
-	padding-top:10px;
-	color:#C7A746;
-	animation-name: titleeffect;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-	animation-delay:-3s;
-}
 
-.crt {
-	font-size:40px;
-	margin-left: 46%;
-	font-family:"Arial Bold";
-	padding-top:10px;
-	color:#B87E5F;
+.creat p{
+	text-align: center;
+	font-size: 50px;
+	font-family: New-Times-Roman;
+	margin-bottom: 70px;
 }
 
 .info{
 	
-	margin-left: 37%;
+	margin-left: 34%;
     background-color: #B87E5F;
-    width: 400px;
+    width: 450px;
     height: 80px;
 	 text-align: center;
-	 align-items: center;
+	
+	 margin-bottom: 99px;
 }
 
 .pic img{
@@ -120,21 +113,36 @@ li.a a:hover:after{
 }
 
 .info p {
+	float: left;
+	padding-left: 60;
 	font-size: 20px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: New-Times-Roman;
 }
 
-.infot{
-	margin-left: 37%;
+.info img{
+	width: 55px;
+	height: 55px;
+	margin-left: 65%;
+	margin-top: -51px;
+}
+
+.info img a:hover{
+    cursor: pointer;
+    opacity: 15%;
+}
+
+.info1{
+	
+	margin-left: 34%;
     background-color: #B87E5F;
-    width: 400px;
+    width: 450px;
     height: 80px;
 	 text-align: center;
-	 align-items: center;
-	 justify-content: center;
+	
+	 margin-bottom: 99px;
 }
 
-.pict img{
+.pic1 img{
 	float: center;
 	width: 110px;
 	height: 115px;
@@ -142,23 +150,37 @@ li.a a:hover:after{
 	margin-left: 47%;
 }
 
-.infot p {
+.info1 p {
+	float: left;
+	padding-left: 60;
 	font-size: 20px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: New-Times-Roman;
 }
 
+.info1 img{
+	width: 55px;
+	height: 55px;
+	margin-left: 65%;
+	margin-top: -51px;
+}
 
-.infoth{
-	margin-left: 37%;
+.info1 img a:hover{
+    cursor: pointer;
+    opacity: 15%;
+}
+
+.info2{
+	
+	margin-left: 34%;
     background-color: #B87E5F;
-    width: 400px;
+    width: 450px;
     height: 80px;
 	 text-align: center;
-	 align-items: center;
-	 justify-content: center;
+	
+	 margin-bottom: 45px;
 }
 
-.picth img{
+.pic2 img{
 	float: center;
 	width: 110px;
 	height: 115px;
@@ -166,26 +188,79 @@ li.a a:hover:after{
 	margin-left: 47%;
 }
 
-.infoth p {
+.info2 p {
+	float: left;
+	padding-left: 60;
 	font-size: 20px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: New-Times-Roman;
 }
 
-.abt {
-	text-align: center;
-
-    width: 100%;
-    height: 700px;
-	text-align: center;
-	justify-content: center;
-	
+.info2 img{
+	width: 55px;
+	height: 55px;
+	margin-left: 65%;
+	margin-top: -51px;
 }
 
-.abt p {
-     color:#2f0909;
-	font-size: 22px;
-	font-family:"Arial Bold";
-	
+.info2 img a:hover{
+    cursor: pointer;
+    opacity: 15%;
+}
+
+.lg img {
+	width: 500px;
+	height: 500px;
+	margin-left: 30px;
+}
+
+.infos h1{
+	font-size: 60px;
+	font-family: "New Times Roman";
+
+	margin-top: -300px;
+	margin-left: 605px;
+}
+
+.infos p{
+	font-size: 20px;
+	font-family:"New Times Roman";
+margin-left: 500px;
+margin-right: 100px;
+margin-bottom: 20px;
+}
+
+.cont p{
+	font-size: 20px;
+	font-family: New-Times-Roman;
+	margin-left: 110px;
+	margin-right:100px;
+	margin-bottom: 20px;
+}
+
+.cont2 p{
+	font-size: 20px;
+	font-family: New-Times-Roman;
+	margin-left: 110px;
+	margin-right:100px;
+	margin-bottom: 40px;
+}
+
+.link h1{
+	font-size: 20px;
+	font-family: New-Times-Roman;
+	margin-left: 110px;
+	margin-right:100px;
+	margin-bottom: 5px;
+}
+
+.link a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.link a:hover{
+	 cursor: pointer;
+    color: #96453C;
 }
 
 .footer{
@@ -199,7 +274,7 @@ li.a a:hover:after{
 .footer li{
   font-size: 15px;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: New-Times-Roman;
   padding: 5px;
   display: block;
 }
@@ -215,6 +290,8 @@ li.a a:hover:after{
   padding-top: 30px;
   display: inline-block;
 }
+
+
 
 .footer img{
   cursor: pointer;
@@ -234,5 +311,3 @@ li.a a:hover:after{
 .footer li a:hover{
   opacity: 100%;
 }
-
-
