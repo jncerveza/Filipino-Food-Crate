@@ -87,12 +87,12 @@ li.a a:hover:after{
     font-size: 100px;
     text-align: center;
     font-family: 'Times New Roman';;
-    margin-top: 10px;
+    padding: 20px;
     position: absolute;
 }
 
 .arrow{
-    padding-top: 50px;
+    padding: 20px;
     font-weight: bolder;
     font-size: 70px;
     
