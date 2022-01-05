@@ -82,12 +82,11 @@ li.a a:hover:after{
 
 
 .title{
-    width: 100%;	
+    width: 20%;	
     color: #855c46;
     font-size: 100px;
     text-align: center;
-    font-family: 'Times New Roman';;
-    padding: 5px;
+    font-family: 'Times New Roman';
     position: absolute;
 }
 
