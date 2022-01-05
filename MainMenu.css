@@ -82,6 +82,8 @@ li.a a:hover:after{
 
 
 .title{
+    padding-left: 50px;
+    padding-top: 10px;
     width: 100%;	
     color: #855c46;
     font-size: 70px;
