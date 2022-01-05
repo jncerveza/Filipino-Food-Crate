@@ -69,14 +69,14 @@ li.a a:link{
 li.a a:after {
     display:block;
     content: '';
-    border-bottom: solid 3.5px #96453C;  
+    border-bottom: solid 3.5px  #DCEBB0;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     
 }
 li.a a:hover{
     cursor: pointer;
-    color: #96453C;
+    color:  #DCEBB0;
 }
 
 li.a a:hover:after{
