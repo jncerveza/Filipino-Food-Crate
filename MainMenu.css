@@ -90,11 +90,12 @@ li.a a:hover:after{
     position: absolute;
 }
 
-.arrow{
-    padding: 20px;
-    font-weight: bolder;
-    font-size: 70px;
-    
+.arrow a{
+    padding:5px 10px 5px 10px;
+    font-size:40px;
+    border-radius: 50%;
+    background-color: #CC7C2D;
+    color:white;
 }
 
 .arrow a:link{
