@@ -21,60 +21,72 @@
 
 /* Navigation */
 .logo{
-    position: absolute;
-    overflow: hidden;
-    height: 70px;
+    height: 65px;
     width: 70px;
-    left: 100px;
-    transition: 250ms;
-    background-size: 70px 70px;
+	padding:none;
 }
 
 .logo:hover{
-    height: 70px;
-    width: 75px;
-    background-color: #DCEBB0 ;
+    height: 66px;
+    width: 70px;
+    background-color: #9E2A2B;
+}
+
+.textnavi {
+	float:right;
+}
+.textnavi a {
+	padding: 20px 90px 20px 0px;
+}
+	
+
+
+@media screen and (max-width: 500px) {
+  .navi a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .textnavi {
+    float: none;
+  }
 }
 
 .navi{
-    text-align: center;
     background-color: #B87E5F;
-    width: 100%;
-    height: 70px;
-    font-family:Times-New-Roman;
-   
+    font-family: Times New Roman;
+	overflow:hidden;
+	padding: 20px 50px;
+
 }
 
-li.a{
-    border-collapse: separate;
-    border-spacing: 100px;
-    display: inline-block;
-    padding: 20px 110px;
+.navi a{
+   float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 25px;
 }
 
-li.a a:link{
-    color: #96453C;
-    font-size: 30px;
-    text-decoration: none;
-}
 
-li.a a:after {
+.navi a:after {
     display:block;
     content: '';
-    border-bottom: solid 3.5px #DCEBB0;
-    transform: scaleX(0);
+    border-bottom: solid 3.5px #9E2A2B;  
+    transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     
 }
-li.a a:hover{
+.navi a:hover{
     cursor: pointer;
-    color: #DCEBB0;
+    color: #9E2A2B;
 }
 
-li.a a:hover:after{
+.navi a:hover:after{
     border-collapse: separate;
     border-spacing: 10px;
-    transform: scaleX(1);
+    transform: scaleX(1); 
 }
 * {
     margin: 0;
